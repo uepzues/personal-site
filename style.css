@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Markazi Text", serif;
+  font-size: 2em;
+  color: #40514e;
+}
+
+.top-container {
+  padding-bottom: 40px;
+  position: relative;
+  padding-top: 100px;
+
+  background-size: 100% 100%;
+  background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  background-image: linear-gradient(180deg, #ccfbd136 54%, #ffffffff 83%),
+    repeating-linear-gradient(0deg, #ccfbd14a 53%, #dcdfa582 54%),
+    repeating-linear-gradient(45deg, #ccfbd187 52%, #dcdfa582 54%),
+    repeating-linear-gradient(135deg, #ccfbd1ff 52%, #dcdfa5ff 54%);
+}
+
+.middle-container {
+  width: 70%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 30px 0;
+}
+
+hr {
+  margin: 80px auto;
+  border: none;
+  border-top: 15px dotted #eaf6f6;
+  width: 500px;
+}
+
+h1 {
+  margin: auto;
+  font-family: "Liu Jian Mao Cao", cursive;
+  font-size: 6rem;
+  color: #66bfbf;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #66bfbf;
+}
+
+h3,
+a {
+  font-family: "Alegreya Sans SC", sans-serif;
+  color: #11999e;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+#mypic {
+  height: 300px;
+  margin: 50px;
+}
+
+#mountain {
+  display: block;
+  height: 800px;
+  margin: auto;
+}
+
+.cloud {
+  position: relative;
+  height: 100px;
+}
+
+#cloud1 {
+  top: 30px;
+  left: 500px;
+}
+
+#cloud2 {
+  top: 30px;
+  left: -500px;
+}
+
+.skills {
+  position: relative;
+  width: auto;
+}
+.skill-row {
+  padding: 0.5em;
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  line-height: 1.2;
+}
+.skills_image {
+  width: 150px;
+  padding: 1em 0;
+  margin: 70px auto;
+}
+
+#skill1 {
+  float: left;
+  margin-right: 30px;
+}
+#skill2 {
+  float: right;
+  margin-left: 20px;
+}
+
+.btn {
+  display: block;
+  margin: 50px auto;
+  width: 200px;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 0.9em;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.footer-link {
+  margin: auto 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #eaf6f6;
+}
+
+#copy {
+  padding-top: 1em;
+  font: "Markazi Text", serif;
+  color: #eaf6f6;
+  font-size: 1rem;
+}
